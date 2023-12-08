@@ -10,10 +10,10 @@
 <body>
     
     <nav class="navbar bg-body-tertiary">
-        <div style="display: flex; justify-content: center; align-items: center; padding-left: 870px;">
+        <div class="container d-flex justify-content-center">
             <a class="navbar-brand" href="#">
                 <img style="width: 100px; height: 100px;" src="static/images/logo.png.jpeg" alt="Logo">
-            </a>
+            </a>            
         </div>
       </nav>
       <div class="container ">
@@ -35,7 +35,7 @@
         <h2>Contact Us</h2>
         <form action="/contact" method="post">
             <input type="email" name="email" placeholder="Your Email" required>
-            <textarea name="message" placeholder="Your Message" required></textarea>
+            <textarea name="message" style="height: 100px;" placeholder="Your Message" required></textarea>
             <button type="submit">Send</button>
         </form>
     </div>
